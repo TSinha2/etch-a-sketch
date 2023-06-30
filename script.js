@@ -13,7 +13,7 @@ function populate_grid(grid_size)
     }
 }
 
-populate_grid(100*100)
+populate_grid(100)
 
 function reset()
 {
