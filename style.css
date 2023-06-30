@@ -1,4 +1,30 @@
 body
 {
+    display: flex;
+    flex-direction: column;
     background-color: #e4f1fe;
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    font-size: 36px;
+    color: #34495e;
+}
+
+.grid-container
+{
+    width: 500px;
+    height: 500px;
+    background-color: #22313f;
+}
+
+.grid
+{
+    width: 50px;
+    height: 50px;
+    background-color: #798b9c;
+    margin: 0;
+    padding: 0;
 }
