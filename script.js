@@ -14,3 +14,12 @@ function populate_grid(grid_size)
 }
 
 populate_grid(100)
+
+function reset()
+{
+    let grid_items = document.getElementsByClassName("grid-item")   
+    for (let i = 0; i < grid_items.length; i++)
+    {
+        grid_items[i].style.backgroundColor = "#798b9c"
+    }
+}
