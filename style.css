@@ -18,12 +18,17 @@ h1
     width: 500px;
     height: 500px;
     background-color: #22313f;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.grid
+.grid-item
 {
-    width: 50px;
-    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+
     background-color: #798b9c;
     margin: 0;
     padding: 0;
